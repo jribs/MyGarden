@@ -100,16 +100,6 @@ public class PlantContentProvider extends ContentProvider {
         return returnUri;
     }
 
-    /***
-     * Handles requests for data by URI
-     *
-     * @param uri
-     * @param projection
-     * @param selection
-     * @param selectionArgs
-     * @param sortOrder
-     * @return
-     */
     @Override
     public Cursor query(@NonNull Uri uri, String[] projection, String selection,
                         String[] selectionArgs, String sortOrder) {
